@@ -5,7 +5,7 @@ searches sources, extracts events and claims, tracks how belief and evidence
 shifted over time, surfaces contradictions between competing accounts, and
 hands back an interactive, cinematic documentary — not a search results page.
 
-🔗 **Live demo:** [your-app.vercel.app](https://your-app.vercel.app) *(replace with your deployed URL)*
+🔗 **Live demo:** [https://narrative-intelligence-xi.vercel.app/](https://narrative-intelligence-xi.vercel.app/) 
 
 ---
 
@@ -87,10 +87,10 @@ Visit `http://localhost:3000`.
 
 **`backend/.env`**
 ```
-GROQ_API_KEYS=key1,key2          # comma-separated, supports multiple accounts
+GROQ_API_KEYS=key1,key2,key3          # comma-separated, supports multiple accounts
 GEMINI_API_KEYS=key1,key2
-GROQ_MODEL=llama-3.1-8b-instant  # check console.groq.com/docs/models for current names
-GEMINI_MODEL=gemini-2.0-flash
+GROQ_MODEL=qwen/qwen3.8-27b           # check console.groq.com/docs/models for current names
+GEMINI_MODEL=gemini-3.8-flash
 TAVILY_API_KEY=
 GUARDIAN_API_KEY=
 DATABASE_URL=postgresql://user:password@host:5432/dbname
