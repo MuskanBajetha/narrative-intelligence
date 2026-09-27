@@ -17,7 +17,7 @@ export function ChapterView({
       <div>
         <p className="text-sm text-neutral-400 mb-1">Chapter {chapter.chapter_number}</p>
         <h2 className="text-2xl font-bold">{chapter.title}</h2>
-        <p className="text-neutral-600 mt-2">{chapter.narrative_arc}</p>
+        <p className="text-neutral-600 mt-2">{chapter.narrative_prose}</p>
       </div>
 
       {chapter.contradiction_focus && (
